@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Grok</title>
+  <link rel="stylesheet" href="style.css.css">
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <!-- Logo Image (Replace with your actual logo image file) -->
+      <a href="/" class="logo">
+        <img src="c:\Users\admin\Desktop\html file\image\xai_logo_1734948984412.webp" alt="AI Grok Logo" class="logo-img">
+      </a>
+    </div>
+
+    <div class="navbar-center">
+      <!-- Navigation Links -->
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="navbar-right">
+      <!-- Login / Sign Up -->
+      <div class="auth-links">
+        <a href="#" class="btn">Sign In</a>  <a href="#" class="btn">Login</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Background Image and Search Bar -->
+  <section class="hero">
+   
+    <div class="hero-content">
+      <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  GROK</h1>
+      <p>Explore the world of AI with Grok</p>
+      <div class="auth-links">
+        <a href="#" class="btn" style="padding: 10px 20px;">Learn More</a>  <a href="#" class="btn"style="padding: 10px 20px;">Try Grok</a>
+      </div>
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="Ask Grok anithing..." style="width: 400;">
+    
+      </div>
+      <p style=" font-size: 1.2rem; margin-top: 46px; margin-left: 10%; ">We are thrilled to unveil Grok 3, our most advanced model yet,
+                                                  <br>blending superior reasoning with extensive pretraining knowledge.</p>
+    </div>
+    
+  </section>
+<!-- Products Section -->
+<section class="products">
+    <div class="container">
+      <h2 class="section-title">AI for all humanity</h2>
+      <p class="section-subtitle">Explore our amazing AI tools</p>
+      
+      <!-- Product Cards -->
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="c:\Users\admin\Desktop\html file\image\Shutterstock_567338095.jpg.webp" alt="Product 1">
+          <h3>Ai roboar</h3>
+          <p>AI-powered tool to enhance your productivity.</p>
+          <button>Learn More</button>
+        </div>
+        <div class="product-card">
+          <img src="c:\Users\admin\Desktop\html file\image\vytcfoire6cbxrrvsgjv.webp" alt="Product 2">
+          <h3>Bussness Tools</h3>
+          <p>Transform your business with AI insights.</p>
+          <button>Learn More</button>
+        </div>
+        <div class="product-card">
+          <img src="c:\Users\admin\Desktop\html file\image\planet-4452434_640.jpg" alt="Product 3">
+          <h3>Earth solution</h3>
+          <p>Boost your team’s performance with AI solutions.</p>
+          <button>Learn More</button>
+        </div>
+        <div class="product-card">
+          <img src="c:\Users\admin\Desktop\html file\image\vector-neon-pin-sign-location-icon-blue-color-illustration-isolated-black-background_566075-96.avif" alt="Product 4">
+          <h3>location finder</h3>
+          <p>AI-driven analytics to help you make data-driven decisions.</p>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </div>
+    <!-- Modal for Image -->
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg" />
+  </div>
+  </section>
+     <!-- About Grok Section -->
+  <section class="about-grok">
+    <div class="container">
+      <div class="about-grok-content">
+        <!-- Image on the left -->
+        <div class="about-image">
+          <img src="c:\Users\admin\Desktop\html file\image\oup_58443-1.jpg" alt="About Grok" class="animated-image">
+        </div>
+
+        <!-- Text on the right -->
+        <div class="about-text">
+          <h2 class="section-title">About Grok</h2>
+          <p class="section-description">Grok is an innovative AI tool designed to empower individuals and businesses with advanced AI capabilities. Whether you're looking to boost productivity, enhance creativity, or analyze data, Grok can help you achieve more.</p>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Our Services Section -->
+  <section class="about-services">
+    <div class="container">
+      <div class="service">
+        <div class="service-text">
+          <h2>AI-Powered Analytics</h2>
+          <p>Our AI-powered analytics tools help businesses make data-driven decisions by extracting actionable insights from vast amounts of data. Leverage advanced machine learning algorithms to unlock business potential and growth.</p>
+        </div>
+        <div class="service-image">
+          <img src="c:\Users\admin\Desktop\html file\image\robot-sits-dark-background-with-purple-lights_900775-15729.avif" alt="AI Analytics">
+        </div>
+      </div>
+
+      <div class="service">
+        <div class="service-text">
+          <h2>Natural Language Processing</h2>
+          <p>Enhance customer engagement with our cutting-edge Natural Language Processing (NLP) services. We offer text analysis, sentiment analysis, and language understanding to boost customer satisfaction and efficiency.</p>
+        </div>
+        <div class="service-image">
+          <img src="c:\Users\admin\Desktop\html file\image\blue-cyborg-toy-dances-with-futuristic-joy-generated-by-ai_188544-31772.avif" alt="NLP">
+        </div>
+      </div>
+
+      <div class="service">
+        <div class="service-text">
+          <h2>AI Automation</h2>
+          <p>Automate your business processes and reduce human error with our AI-driven automation tools. From robotic process automation to intelligent systems, we help your business run smoother, faster, and more efficiently.</p>
+        </div>
+        <div class="service-image">
+          <img src="c:\Users\admin\Desktop\html file\image\artificial-intelligence-robot-isolated-on-black-a-cute-in-3d-x-ray-render_9755978.jpg!w700wp" alt="AI Automation">
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- Blog Section -->
+   <section class="blog">
+    <div class="container">
+      <h2 class="section-title">Latest Blog Posts</h2>
+      
+      <div class="blog-posts">
+        <!-- Blog Post 1 -->
+        <div class="blog-post animated-post">
+          <img src="c:\Users\admin\Desktop\html file\image\artificial-intelligence-scattering-head-profile-of-a-chrome-plated-robot-black-background-ai-generated-photo.jpeg" alt="Blog 1" class="blog-image">
+          <h3 class="post-title">The Future of AI</h3>
+          <p class="post-description">Discover the upcoming trends and innovations in artificial intelligence that will change the world as we know it.</p>
+          <a href="#" class="read-more-btn">Read More</a>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="blog-post animated-post">
+          <img src="c:\Users\admin\Desktop\html file\image\images (23).jpg" alt="Blog 2" class="blog-image">
+          <h3 class="post-title">Understanding</h3>
+          <p class="post-description">A deep dive into deep learning and how it’s being used to create smarter technologies and applications.</p>
+          <a href="#" class="read-more-btn">Read More</a>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="blog-post animated-post">
+          <img src="c:\Users\admin\Desktop\html file\image\images (22).png" alt="Blog 3" class="blog-image">
+          <h3 class="post-title">AI in Healthcare</h3>
+          <p class="post-description">How artificial intelligence is revolutionizing healthcare with smarter diagnosis and treatments.</p>
+          <a href="#" class="read-more-btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Feature Section -->
+<section class="features">
+    <div class="container">
+      <h2 class="section-title">Our Key Features</h2>
+
+      <div class="feature-cards">
+        <!-- Feature 1 -->
+        <div class="feature-card animated-feature">
+          <div class="feature-icon">
+            <i class="fas fa-brain"></i> <!-- Icon for AI -->
+          </div>
+          <h3 class="feature-title">AI-Powered Insights</h3>
+          <p class="feature-description">Get actionable insights from your data using advanced artificial intelligence technology.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card animated-feature">
+          <div class="feature-icon">
+            <i class="fas fa-cogs"></i> <!-- Icon for tools -->
+          </div>
+          <h3 class="feature-title">Automation Tools</h3>
+          <p class="feature-description">Automate your workflow to increase efficiency and save time with minimal effort.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card animated-feature">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i> <!-- Icon for collaboration -->
+          </div>
+          <h3 class="feature-title">Collaboration Ready</h3>
+          <p class="feature-description">Work seamlessly with your team on projects with real-time collaboration features.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- New Additions Section -->
+  <section class="new-additions">
+    <div class="container">
+      <h2 class="section-title">New Additions</h2>
+      <p class="section-description">Check out our latest products, features, and updates. Stay ahead with the most recent additions to our platform!</p>
+
+      <div class="new-addition-cards">
+        <!-- New Addition 1 -->
+        <div class="new-addition-card animated-item">
+          <img src="c:\Users\admin\Desktop\html file\image\images (23).png" alt="New Addition 1" class="addition-image">
+          <h3 class="addition-title">AI-Enhanced Analytics</h3>
+          <p class="addition-description">Leverage advanced analytics to gain deeper insights and make smarter decisions.</p>
+          <a href="#" class="cta-btn">Learn More</a>
+        </div>
+
+        <!-- New Addition 2 -->
+        <div class="new-addition-card animated-item">
+          <img src="c:\Users\admin\Desktop\html file\image\artificial-intelligence-robot-isolated-black-background-cute-rendered-in-3d-x-ray_9756021.jpg!w700wp" alt="New Addition 2" class="addition-image">
+          <h3 class="addition-title">Smart Automation Tools</h3>
+          <p class="addition-description">Automate repetitive tasks to save time and improve productivity with our new tools.</p>
+          <a href="#" class="cta-btn">Learn More</a>
+        </div>
+
+        <!-- New Addition 3 -->
+        <div class="new-addition-card animated-item">
+          <img src="c:\Users\admin\Desktop\html file\image\download (45).png" alt="New Addition 3" class="addition-image">
+          <h3 class="addition-title">Seamless Collaboration</h3>
+          <p class="addition-description">Work with your team effortlessly using our new real-time collaboration features.</p>
+          <a href="#" class="cta-btn">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!-- Footer Section -->
+   <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-phone-alt"></i> +1 234 567 890</li>
+            <li><i class="fas fa-envelope"></i> contact@yourcompany.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> 1234 AI Street, Tech City, USA</li>
+          </ul>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+      
+    <div class="footer-bottom">
+      <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="Untitled-2.js"></script> 
+</body>
+</html>
